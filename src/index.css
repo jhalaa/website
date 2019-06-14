@@ -1,3 +1,14 @@
+:root {
+    --first: #ffeafe;
+    --second: #9ea9f0;
+    --tertairy: #ccc1ff;
+    --other: #553c8b;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,10 +17,108 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: aliceblue;
+  background: #FFC9DE;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.header {
+    background: var(--other);
+}
+
+Button {
+    background: var(--tertairy);
+}
+
+.sIcon {
+    margin: 10px;
+}
+
+.resumeBtn {
+    margin-left: 10px;
+    height: fit-content;
+    margin-top: 15px;
+}
+.jsContainer {
+    display: flex;
+    align-items: center;
+}
+.heart {
+    background-color: red;
+    display: inline-block;
+    height: 20px;
+    margin: 5px 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 20px;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+}
+
+.heart:before {
+    top: -10px;
+    left: 0;
+}
+
+.heart:after {
+    left: 10px;
+    top: 0;
+}
+
+.learnMore {
+    margin: 15px;
+}
+
+.stickyNav {
+    display:flex;
+    position: sticky;
+    top: 80px;
+    z-index: 1050;
+    background: var(--first);
+    height: 45px;
+    align-items: center;
+}
+#myJumbo {
+    margin-bottom: 0;
+}
+
+.experienceToast {
+    display: flex;
+    align-items: baseline;
+    background: var(--second);
+    padding: 30px 10px;
+}
+
+.educationToast {
+    display: flex;
+    align-items: baseline;
+    background: var(--first);
+    padding: 80px 300px;
+}
+.CircularProgressbar {
+    display: inline-block;
+    width: auto !important;
+    padding: 10px;
+    margin: 10px;
+}
+.skill {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+.skills {
+    padding: 100px;
+}
+

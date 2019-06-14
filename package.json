@@ -5,8 +5,11 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
+    "react-circular-progressbar": "^2.0.1",
     "react-dom": "^16.8.6",
+    "react-kawaii": "^0.14.4",
     "react-scripts": "3.0.0",
+    "react-vertical-timeline-component": "^2.3.1",
     "reactstrap": "^8.0.0"
   },
   "scripts": {
@@ -29,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-social-icons": "^4.1.0"
   }
 }
